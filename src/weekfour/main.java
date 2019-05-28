@@ -28,10 +28,17 @@ public class main {
     	   System.out.println("a &b are not same ");  
        }
        
+       String j ="hugo";
        
-       
-       
-       
+    		   System.out.println(j.toUpperCase());  
+      
+    		   String k ="SDFG";
+    	       
+    		   System.out.println(k.toLowerCase());  
+       	   
+    		   
+    		   
+    		   
 	}
 
 }
