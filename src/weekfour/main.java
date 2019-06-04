@@ -6,11 +6,15 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-    	public static void calcTax(double price){	   
-    	final double TAXRATE =13/100;	   
-    	double result = price*TAXRATE;
-    	System.out.println("tax is :" +result);
+		calcdistance(9.8,10);
+    	
 	}
+	
+	
+	public static void calcdistance(double g,int t){	   
+    		   
+    	double distance = 0.5*g*t;
+    	System.out.println("distance is :" +distance);
+    	}
 
 }
